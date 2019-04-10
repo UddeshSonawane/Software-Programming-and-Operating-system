@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	strcpy(find,argv[2]);
 	strcpy(replace,argv[3]);
 	f1 = fopen(fname,"r+");
-	f2= fopen("rep.text","w+");
+	f2= fopen("rep.txt","w+");
 	yyin = f1;
 	yylex();
 	return (0);
