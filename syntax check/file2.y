@@ -7,7 +7,7 @@
 
 */
 
-/*   ass8.l
+/*   file.l
 
 %{
 	#include "y.tab.h"
