@@ -1,4 +1,4 @@
-/* Scheduling algorithm    FIFO or FCFS  (non preemptive)    in Java
+/* Scheduling algorithm    FCFS  (non preemptive)    in Java
 
 Included : Arrival Time
            Burst Time
@@ -10,7 +10,7 @@ By Uddesh
 */
 
 import java.util.*;
-class fifo
+class fcfs
 {
 	public static void main(String[] args) 
 	{
@@ -61,8 +61,8 @@ class fifo
 
 output :
 
-captain@uddesh-System-Product-Name:~/SPOS$ javac fifo.java
-captain@uddesh-System-Product-Name:~/SPOS$ java fifo
+captain@uddesh-System-Product-Name:~/SPOS$ javac cfs.java
+captain@uddesh-System-Product-Name:~/SPOS$ java fcfs
 Enter number of processes : 
 5
 Enter Arrival Time of process 1 : 
